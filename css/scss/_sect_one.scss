@@ -1,0 +1,23 @@
+// Section One
+
+#section-one {
+  //background: $primary;
+  background: linear-gradient(rgba(33,206,153,1),rgba(33,206,153,.85)), url('../img/computer-min.jpg');// no-repeat center center fixed;
+  background-position: center center;
+  background-size: cover;
+  
+  .title {
+    color: white;
+  }
+  
+  p {
+    color: white;
+    font-size: 1.2rem;
+  }
+}
+
+// @media #{$medium-up} {
+//   #problem {
+//     height: 100vh;
+//   }
+// }

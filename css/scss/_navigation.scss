@@ -1,0 +1,76 @@
+// Navigation
+
+nav {
+  height: 6rem;
+  
+  h1 {
+    color: $primary;
+    display: inline-block;
+    font-size: 2rem;
+    font-family: $cairo;
+    margin: 1.55rem 0 0 2rem;
+  }
+}
+
+.main-menu {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 2rem auto 0;
+  float: right;
+  display: none;
+  //visibility: hidden;
+  transition: ease 500ms;
+  
+  li {
+    display: inline-block;
+    
+    a {
+      color: $primary;
+      font-family: $cairo;
+      padding: .5rem;
+      font-size: 1.2rem;
+      transition: ease 500ms;
+      
+      &:hover {
+        color: darken($primary, 15%);
+      }
+    }
+    
+    a.focus {
+      background: $primary;
+      color: white;
+      border-radius: 3px;
+      
+      &:hover {
+        background: lighten($primary, 15%);
+      }
+    }
+  }
+}
+
+.dropdown {
+  position: absolute;
+  right: -2rem;
+  top: 4rem;
+  background: white;
+  padding: 2rem;
+  transition: ease 500ms;
+}
+.menu-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  position: absolute;
+  right: 2rem;
+  display: inline-block;
+  top: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+  .main-menu {
+    display: inline-block;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+}

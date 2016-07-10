@@ -1,0 +1,25 @@
+// Section Two
+
+#section-two {
+  background: $black;
+  
+  .code-box {
+    height: 200px;
+    width: 500px;
+    border: white solid;
+    border-width: 3rem .5rem .5rem;
+    margin: 0 auto 2rem;
+    border-radius: 3px;
+  }
+  
+  .text-box {
+    padding: 2rem;
+    font-size: 1.2rem;
+    border-radius: 3p
+  }
+  
+  .title,
+  p {
+    color: white;
+  }
+}

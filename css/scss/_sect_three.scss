@@ -1,0 +1,22 @@
+// section three
+
+.cta-button {
+  text-align: center;
+  color: white;
+  background: $primary;
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin: 2rem auto;
+  width: 14rem;
+  font-size: 1.2rem;
+  transition: ease 500ms;
+  
+  &:hover {
+    background: lighten($primary, 15%);
+    color: white;
+  }
+  
+  &:visited {
+    color: white;
+  }
+}
