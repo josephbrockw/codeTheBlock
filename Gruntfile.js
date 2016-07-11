@@ -12,7 +12,7 @@ module.exports = function(grunt) {
           style: 'expanded',
         },
         files: {
-          'css/2016.css': 'scss/2016.scss'
+          'css/main.css': 'css/scss/*.scss'
         }
       }
     },
@@ -77,7 +77,7 @@ module.exports = function(grunt) {
           ]
         },
         dist: {
-          src: 'scss/**/*.scss'
+          src: 'css/scss/*.scss'
         }
       //}
     },
@@ -95,7 +95,7 @@ module.exports = function(grunt) {
       grunt: { files: ['Gruntfile.js'] },
 
       sass: {
-        files: 'scss/**/*.scss',
+        files: 'css/scss/*.scss',
         tasks: ['postcss', 'sass', 'autoprefixer'],
         options: {
           livereload: true
