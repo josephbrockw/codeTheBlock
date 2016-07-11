@@ -8,14 +8,14 @@ nav {
     display: inline-block;
     font-size: 2rem;
     font-family: $cairo;
-    margin: 1.55rem 0 0 2rem;
+    margin: 2rem 0 0 2rem;
   }
 }
 
 .main-menu {
   list-style: none;
   padding: 0;
-  margin: 2rem 2rem auto 0;
+  margin: 2.4rem 2rem auto 0;
   float: right;
   display: none;
   //visibility: hidden;
@@ -30,6 +30,7 @@ nav {
       padding: .5rem;
       font-size: 1.2rem;
       transition: ease 500ms;
+      //text-decoration: none;
       
       &:hover {
         color: darken($primary, 15%);
@@ -42,7 +43,7 @@ nav {
       border-radius: 3px;
       
       &:hover {
-        background: lighten($primary, 15%);
+        background: darken($primary, 15%);
       }
     }
   }
@@ -51,7 +52,7 @@ nav {
 .dropdown {
   position: absolute;
   right: -2rem;
-  top: 4rem;
+  top: 3.5rem;
   background: white;
   padding: 2rem;
   transition: ease 500ms;

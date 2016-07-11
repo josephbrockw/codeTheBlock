@@ -15,7 +15,23 @@
   .text-box {
     padding: 2rem;
     font-size: 1.2rem;
-    border-radius: 3p
+    border-radius: 3px;
+  }
+  
+    .title {
+    color: white;
+    font-family: $cairo;
+    margin: 1rem 1rem;
+  }
+  
+  p {
+    color: white;
+    font-size: 1.2rem;
+    font-family: $cairo;
+    line-height: 1.8rem;
+    max-width: 900px;
+    margin: 1rem auto;
+    text-align: center;
   }
   
   .title,

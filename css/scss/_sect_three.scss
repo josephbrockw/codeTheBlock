@@ -10,6 +10,8 @@
   width: 14rem;
   font-size: 1.2rem;
   transition: ease 500ms;
+  font-family: $cairo;
+  border-radius: 3px;
   
   &:hover {
     background: lighten($primary, 15%);
