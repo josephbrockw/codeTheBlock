@@ -10,6 +10,7 @@
     border-width: 3rem .5rem .5rem;
     margin: 0 auto 2rem;
     border-radius: 3px;
+    padding-top: 1rem;
   }
   
   .text-box {
@@ -37,5 +38,18 @@
   .title,
   p {
     color: white;
+  }
+
+    li {
+    color: white;
+    font-family: $cairo;
+    font-size: 1.2rem;
+    text-align: center;
+    list-style: none;
+    line-height: 1.6rem;
+  }
+
+  ul {
+    padding-bottom: 1rem;
   }
 }

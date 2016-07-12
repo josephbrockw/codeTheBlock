@@ -22,7 +22,7 @@ module.exports = function(grunt) {
         sourceMap: true
       },
       dist: {
-        'files': { 'js/2016.min.js': 'js/2016.js' }
+        'files': { 'js/main.min.js': 'js/custom/app.js' }
       }
     },
     eslint: {
