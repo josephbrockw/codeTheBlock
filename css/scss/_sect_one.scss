@@ -20,6 +20,23 @@
     margin: 1rem auto;
     text-align: center;
   }
+
+  #subtext
+
+  .mission {
+    ul {
+      display:table;
+      margin:0 auto;
+      font-size: 110%;
+
+      li {
+        margin: 10px 0 0 0;
+        color: #ffffff;
+        list-style-type: circle;
+        font-family: "Cairo";
+      }
+    }
+  }
 }
 
 // @media #{$medium-up} {
