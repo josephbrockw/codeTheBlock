@@ -1,0 +1,32 @@
+// Global
+.title {
+  text-align: center;
+  font-size: 3rem;
+  font-family: $cairo;
+}
+
+p {
+  font-family: $cairo;
+}
+
+section {
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 700px) {
+  section {
+    min-height: 100vh;
+    padding: 5rem 12%;
+  }
+
+  ul {
+    width: 60%;
+  }
+}
+
+a {
+  text-decoration: none;
+}

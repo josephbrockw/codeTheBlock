@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  
+
   // Dropdown Menu for mobile
   $(".menu-icon").click(function(){
     if( $(".main-menu").hasClass("dropdown")) {
@@ -13,21 +13,21 @@ $(document).ready(function() {
       console.log("click");
     }
   });
-  
+
   // Code box animation
   var message = "Learn to program and start building awesome stuff today";
-  
+
   var space = function() {
     console.log("space");
   }
-  
+
   var char = function() {
     console.log("char");
   }
   var display = function() {
-  
-  var j = 0;  
-    
+
+  var j = 0;
+
     if (j.length <= message.length) {
       //console.log(message);
       for(i = 0; i < message.length; i++) {
@@ -47,7 +47,7 @@ $(document).ready(function() {
       }
     }
   }
-  
+
   $(window).scroll(function() {
     var hT = $('#section-two').offset().top,
         hH = $('#section-two').outerHeight(),
@@ -61,6 +61,6 @@ $(document).ready(function() {
     //console.log(message);
     // Loop through the array and print each character
 
-    
+
   })
 });
