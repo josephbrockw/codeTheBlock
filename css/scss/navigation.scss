@@ -2,7 +2,7 @@
 
 nav {
   height: 6rem;
-  
+
   h1 {
     color: $primary;
     display: inline-block;
@@ -25,10 +25,11 @@ nav {
   display: none;
   //visibility: hidden;
   transition: ease 500ms;
-  
+  width: auto;
+
   li {
     display: inline-block;
-    
+
     a {
       color: $primary;
       font-family: $cairo;
@@ -36,17 +37,17 @@ nav {
       font-size: 1.2rem;
       transition: ease 500ms;
       //text-decoration: none;
-      
+
       &:hover {
         color: darken($primary, 15%);
       }
     }
-    
+
     a.focus {
       background: $primary;
       color: white;
       border-radius: 3px;
-      
+
       &:hover {
         background: darken($primary, 15%);
       }
@@ -75,7 +76,7 @@ nav {
   .main-menu {
     display: inline-block;
   }
-  
+
   .menu-icon {
     display: none;
   }
