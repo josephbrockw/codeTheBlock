@@ -24,3 +24,39 @@
     color: white;
   }
 }
+
+input.email {
+  max-width: 600px;
+  width: 90%;
+  display: block;
+  line-height: 1.75rem;
+  margin: 2rem auto 0;
+  font-size: 1.25rem;
+  text-indent: .5rem;
+
+  &:focus {
+    outline-color: $primary;
+  }
+
+  &.mce_inline_error {
+    border: 1px solid $error;
+    border-color: $error !important;
+  }
+}
+
+#mc_embed_signup div.mce_inline_error {
+  background-color: transparent !important;
+  color: $error !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+div#mce-success-response {
+  width: 80%;
+  display: block;
+  margin: 1rem auto;
+  color: $primary;
+}
+.submit-button {
+  display: block
+}
