@@ -2,7 +2,7 @@
 
 #section-two {
   background: $black;
-  
+
   .code-box {
     height: 200px;
     width: 500px;
@@ -12,19 +12,19 @@
     border-radius: 3px;
     padding-top: 1rem;
   }
-  
+
   .text-box {
     padding: 2rem;
     font-size: 1.2rem;
     border-radius: 3px;
   }
-  
+
     .title {
     color: white;
     font-family: $cairo;
     margin: 1rem 1rem;
   }
-  
+
   p {
     color: white;
     font-size: 1.2rem;
@@ -34,22 +34,23 @@
     margin: 1rem auto;
     text-align: center;
   }
-  
+
   .title,
   p {
     color: white;
   }
 
-    li {
-    color: white;
-    font-family: $cairo;
-    font-size: 1.2rem;
-    text-align: center;
-    list-style: none;
-    line-height: 1.6rem;
-  }
-
   ul {
     padding-bottom: 1rem;
+    margin: 0 auto;
+
+    li {
+      color: white;
+      font-family: $cairo;
+      font-size: 1.2rem;
+      text-align: center;
+      list-style: none;
+      line-height: 1.6rem;
+    }
   }
 }
