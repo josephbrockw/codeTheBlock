@@ -3,12 +3,10 @@
 nav {
   height: 6rem;
 
-  h1 {
-    color: $primary;
-    display: inline-block;
-    font-size: 2rem;
-    font-family: $cairo;
-    margin: 2rem 0 0 2rem;
+  .logo {
+    //display: inline-block;
+    height: 4rem;
+    margin: 1rem 0 0 2rem;
   }
 
   #subtext {

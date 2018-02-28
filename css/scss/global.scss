@@ -9,11 +9,23 @@ p {
   font-family: $cairo;
 }
 
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display: inline-block;
+}
+
 section {
-  padding: 5rem 2rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 700px) {
@@ -26,8 +38,12 @@ section {
     width: 60%;
     margin: 0 auto;
   }
-}
 
-a {
-  text-decoration: none;
+  .desktop {
+    display: inline-block;
+  }
+
+  .mobile {
+    display: none;
+  }
 }
