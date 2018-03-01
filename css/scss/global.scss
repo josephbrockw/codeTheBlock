@@ -24,14 +24,71 @@ section {
   justify-content: center;
 }
 
+.section {
+  .title {
+    font-family: $cairo;
+    margin: 2rem 1rem 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    font-family: $cairo;
+    line-height: 1.8rem;
+    max-width: 900px;
+    margin: 1rem auto;
+    text-align: center;
+  }
+}
+
 a {
   text-decoration: none;
+}
+
+ul {
+  padding-bottom: 1rem;
+  margin: 0 auto;
+
+  li {
+    color: white;
+    font-family: $cairo;
+    font-size: 1.2rem;
+    text-align: center;
+    list-style: none;
+    line-height: 1.6rem;
+  }
+}
+
+.mission {
+  ul {
+    //display:table;
+    margin: 1rem auto;
+    font-size: 110%;
+    width: 60%;
+
+    li {
+      margin: 10px 0 0 0;
+      //color: #ffffff;
+      list-style-type: circle;
+      font-family: "Cairo";
+    }
+  }
 }
 
 @media screen and (min-width: 700px) {
   section {
     min-height: 100vh;
     padding: 5rem 12%;
+  }
+
+  .title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .section {
+    p {
+      margin: 0 auto;
+    }
   }
 
   ul {

@@ -1,4 +1,7 @@
 // section three
+#section-three .title {
+  color: $primary;
+}
 
 .cta-button {
   text-align: center;
@@ -33,6 +36,8 @@ input.email {
   margin: 2rem auto 0;
   font-size: 1.25rem;
   text-indent: .5rem;
+  border: 2px solid $primary;
+  border-radius: 3px;
 
   &:focus {
     outline-color: $primary;

@@ -1,20 +1,21 @@
 // Variables
 $primary: #4abfab;
 $secondary: #34469d;
-$terciary: #f7b15e;
+$tertiary: #f7b15e;
 $black: #040d14;
 $error: #f45531;
 
 $acc-primary: #eeaa7b;
 $acc-secondary: #66b9bf;
 
+@import url(https://fonts.googleapis.com/css?family=Chivo);
 @import url(https://fonts.googleapis.com/css?family=Cairo:400,700);
-$cairo: 'Cairo', sans-serif;
+$cairo: 'Chivo', sans-serif;
 
 
 @import 'global';
 @import 'navigation';
-@import 'sect_one';
-@import 'sect_two';
+@import 'primary-section';
+@import 'secondary-section';
 @import 'sect_three';
 @import 'footer';

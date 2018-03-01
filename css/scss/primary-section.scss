@@ -1,0 +1,11 @@
+// White backgrouind section
+
+.primary-section {
+  background: white;
+
+  .title,
+  p,
+  li {
+    color: $primary;
+  }
+}
