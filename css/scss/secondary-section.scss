@@ -2,4 +2,8 @@
 .secondary-section {
   background: $secondary;
   color: white;
+
+  .title {
+    color: $tertiary;
+  }
 }
