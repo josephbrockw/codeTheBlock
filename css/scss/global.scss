@@ -143,3 +143,9 @@ ul {
     display: none;
   }
 }
+
+@media screen and (max-width: 340px) {
+  .title {
+    font-size: 2.5rem;
+  }
+}
