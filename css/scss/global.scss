@@ -144,8 +144,12 @@ ul {
   }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 350px) {
   .title {
     font-size: 2.5rem;
+  }
+
+  .focus {
+    display: block;
   }
 }
