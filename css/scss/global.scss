@@ -1,12 +1,23 @@
 // Global
-.title {
+.title, {
   text-align: center;
   font-size: 3rem;
   font-family: $cairo;
 }
 
+h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: $cairo;
+  color: $tertiary;
+  margin-bottom: 1rem;
+}
 p {
   font-family: $cairo;
+}
+
+strong {
+  color: $tertiary;
 }
 
 .desktop {
@@ -25,19 +36,23 @@ section {
 }
 
 .section {
+  &.centered-text p {
+    text-align: center;
+  }
+
   .title {
     font-family: $cairo;
     margin: 2rem 1rem 1rem;
   }
+}
 
-  p {
-    font-size: 1.2rem;
-    font-family: $cairo;
-    line-height: 1.8rem;
-    max-width: 900px;
-    margin: 1rem auto;
-    text-align: center;
-  }
+p {
+  font-size: 1.2rem;
+  font-family: $cairo;
+  line-height: 1.8rem;
+  max-width: 900px;
+  margin: 1rem auto;
+  //text-align: center;
 }
 
 a {
@@ -59,7 +74,8 @@ ul {
 }
 
 .mission {
-  ul {
+  ul,
+  ol {
     //display:table;
     margin: 1rem auto;
     font-size: 110%;
@@ -74,6 +90,15 @@ ul {
   }
 }
 
+.icon {
+  height: 120px;
+  margin: 2rem auto;
+}
+
+.coming-soon {
+  color: rgb(175,175,175) !important;
+  font-size: 1rem;
+}
 @media screen and (min-width: 700px) {
   section {
     min-height: 100vh;
@@ -81,13 +106,13 @@ ul {
   }
 
   .title {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
   .section {
     p {
-      margin: 0 auto;
+      margin: 0 auto 1rem;
     }
   }
 
