@@ -1,8 +1,15 @@
 .curriculum-points {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
 
   .curriculum-sect {
     flex: 1;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .curriculum-points {
+    flex-direction: row;
   }
 }
