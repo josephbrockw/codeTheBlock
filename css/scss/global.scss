@@ -86,6 +86,7 @@ ul {
       //color: #ffffff;
       list-style-type: circle;
       font-family: "Cairo";
+      line-height: 1.2rem;
     }
   }
 }
@@ -98,6 +99,19 @@ ul {
 .coming-soon {
   color: rgb(175,175,175) !important;
   font-size: 1rem;
+}
+.paypal-container {
+  padding: 4rem 0;
+  background: $tertiary;
+  border-radius: 3px;
+}
+.paypal-form {
+  display: flex;
+  justify-content: center;
+}
+
+.title.no-top-margin {
+  margin: 0rem auto 2rem;
 }
 @media screen and (min-width: 700px) {
   section {
