@@ -9,9 +9,22 @@ h3 {
   text-align: center;
   font-size: 2rem;
   font-family: $cairo;
-  color: $tertiary;
+  // color: $tertiary;
   margin-bottom: 1rem;
 }
+
+.primary-section {
+  h3 {
+    color: $tertiary;
+  }
+}
+
+.secondary-section {
+  h3 {
+    color: $primary;
+  }
+}
+
 p {
   font-family: $cairo;
 }
@@ -67,10 +80,17 @@ ul {
     color: white;
     font-family: $cairo;
     font-size: 1.2rem;
-    text-align: center;
+    //text-align: center;
     list-style: none;
     line-height: 1.6rem;
   }
+}
+
+video {
+  display: inline-block;
+  margin: 2rem auto;
+  max-width: 90%;
+  width: 800px
 }
 
 .mission {
@@ -103,8 +123,12 @@ ul {
 }
 .paypal-container {
   padding: 4rem 0;
-  background: $tertiary;
+  //background: $secondary;
   border-radius: 3px;
+
+  .title {
+    color: white;
+  }
 }
 .paypal-form {
   display: flex;
